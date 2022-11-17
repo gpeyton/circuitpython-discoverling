@@ -33,11 +33,11 @@
 
 // Need to change to IO45
 // Set to green LED, GPIO36
-#define MICROPY_HW_NEOPIXEL (&pin_GPIO36)
+#define MICROPY_HW_NEOPIXEL (&pin_GPIO45)
 // NEOPIX Power LED
 // #define CIRCUITPY_STATUS_LED_POWER (&pin_GPIO21)
 // Random status LED
-#define MICROPY_HW_LED_STATUS (&pin_GPIO38)
+#define MICROPY_HW_LED_STATUS (&pin_GPIO37)
 
 // #define DEFAULT_UART_BUS_RX (&pin_GPIO38)
 // #define DEFAULT_UART_BUS_TX (&pin_GPIO39)
