@@ -45,10 +45,11 @@ STATIC const mp_rom_map_elem_t board_module_globals_table[] = {
 
     { MP_ROM_QSTR(MP_QSTR_POT), MP_ROM_PTR(&pin_GPIO12) },
 
-    { MP_ROM_QSTR(MP_QSTR_LDR), MP_ROM_PTR(&pin_GPIO13) },
+    { MP_ROM_QSTR(MP_QSTR_BUT2), MP_ROM_PTR(&pin_GPIO13) },
     { MP_ROM_QSTR(MP_QSTR_IO13), MP_ROM_PTR(&pin_GPIO13) },
+    { MP_ROM_QSTR(MP_QSTR_BUT1), MP_ROM_PTR(&pin_GPIO14) },
+    { MP_ROM_QSTR(MP_QSTR_IO14), MP_ROM_PTR(&pin_GPIO14) },
 
-    { MP_ROM_QSTR(MP_QSTR_MIC_OUT), MP_ROM_PTR(&pin_GPIO14) },
     { MP_ROM_QSTR(MP_QSTR_SD_DOUT), MP_ROM_PTR(&pin_GPIO15) },
     { MP_ROM_QSTR(MP_QSTR_SCLK), MP_ROM_PTR(&pin_GPIO16) },
     { MP_ROM_QSTR(MP_QSTR_SD_DIN), MP_ROM_PTR(&pin_GPIO17) },
@@ -76,11 +77,10 @@ STATIC const mp_rom_map_elem_t board_module_globals_table[] = {
     { MP_ROM_QSTR(MP_QSTR_NEOPIX_TXD0), MP_ROM_PTR(&pin_GPIO43) },
     { MP_ROM_QSTR(MP_QSTR_IO43), MP_ROM_PTR(&pin_GPIO43) },
 
-    { MP_ROM_QSTR(MP_QSTR_FAN_PWM_BUT4), MP_ROM_PTR(&pin_GPIO44) },
+    { MP_ROM_QSTR(MP_QSTR_BUT4), MP_ROM_PTR(&pin_GPIO44) },
     { MP_ROM_QSTR(MP_QSTR_IO44), MP_ROM_PTR(&pin_GPIO44) },
 
-    { MP_ROM_QSTR(MP_QSTR_BUT1), MP_ROM_PTR(&pin_GPIO45) },
-    { MP_ROM_QSTR(MP_QSTR_BUT2), MP_ROM_PTR(&pin_GPIO46) },
+    { MP_ROM_QSTR(MP_QSTR_MIC_PWR), MP_ROM_PTR(&pin_GPIO45) },
 
     { MP_ROM_QSTR(MP_QSTR_I2C), MP_ROM_PTR(&board_i2c_obj) },
     { MP_ROM_QSTR(MP_QSTR_STEMMA_I2C), MP_ROM_PTR(&board_i2c_obj) },
