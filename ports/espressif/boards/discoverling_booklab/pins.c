@@ -40,7 +40,7 @@ STATIC const mp_rom_map_elem_t board_module_globals_table[] = {
     { MP_ROM_QSTR(MP_QSTR_IO10), MP_ROM_PTR(&pin_GPIO10) },
 
     // Misc
-    { MP_ROM_QSTR(MP_QSTR_MIC_PWR), MP_ROM_PTR(&pin_GPIO11) },
+    { MP_ROM_QSTR(MP_QSTR_MIC_OUT), MP_ROM_PTR(&pin_GPIO11) },
     { MP_ROM_QSTR(MP_QSTR_IO11), MP_ROM_PTR(&pin_GPIO11) },
 
     { MP_ROM_QSTR(MP_QSTR_POT), MP_ROM_PTR(&pin_GPIO12) },
